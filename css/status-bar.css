@@ -10,6 +10,11 @@
   font-size: 16px;
 }
 
+.status-bar_column:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .status-bar_column:nth-child(2) {
   display: flex;
   justify-content: center;
