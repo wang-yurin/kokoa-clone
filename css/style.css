@@ -1,14 +1,24 @@
 /* reset */
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 @import "reset.css";
-@import "status-bar.css";
-@import "main-form.css";
+@import "./variables.css";
+
+/* Conponents */
+@import "Components/status-bar.css";
+@import "Components/nav-bar.css";
+@import "Components/screen-header.css";
+@import "Components/user-component.css";
+
+/* Screens */
+@import "Screens/main-form.css";
+@import "Screens/friends.css";
 
 body {
   box-sizing: border-box;
   text-decoration: none;
   font-weight: normal;
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #2e363e;
   /* background-color: #f0f0f0; */
 }
 
@@ -17,5 +27,5 @@ body {
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  width: 50vh;
+  width: 50%;
 }

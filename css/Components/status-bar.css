@@ -3,6 +3,9 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: fixed;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .status-bar_column {
